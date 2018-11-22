@@ -40,5 +40,7 @@ defmodule XrpnodeWeb.Endpoint do
     key: "_xrpnode_key",
     signing_salt: "cU04hUqq"
 
+  plug CORSPlug
+  
   plug XrpnodeWeb.Router
 end
